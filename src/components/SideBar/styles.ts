@@ -18,7 +18,7 @@ export const Container = styled.div`
 
   background: var(--secondary);
 
-  width: min(20%, 200px);
+  width: min(25%, 280px);
   height: 100%;
 `;
 
@@ -104,6 +104,7 @@ export const Subscriptions = styled.div`
 
   @media (min-width: 1024px) {
     display: block;
+    margin-top: 5px;
 
     > h1 {
       font-size: 16px;
@@ -132,15 +133,15 @@ export const Channel = styled.div`
     > span {
       display: inline;
       margin-left: 20px;
-      font-size: 15;
+      font-size: 16px;
       letter-spacing: -1px;
     }
   }
 `;
 
 export const Avatar = styled.div`
-  width: 25px;
-  height: 25px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   flex-shrink: 0;
 
@@ -148,21 +149,17 @@ export const Avatar = styled.div`
 `;
 
 export const Footer = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   word-wrap: break-word;
+  width: 140px;
 
-  width: 80%;
-  bottom: 0;
+  bottom: 10px;
   position: absolute;
-  bottom: 0;
-`;
 
-export const UtilLinks = styled.div`
-  flex: 1;
-`;
-
-export const Terms = styled.div`
-  flex: 1;
+  > span {
+    display: inline;
+    font-size: 15px;
+    color: var(--gray);
+    margin-right: 12px;
+    cursor: pointer;
+  }
 `;

@@ -16,8 +16,6 @@ import {
   Channel,
   Avatar,
   Footer,
-  UtilLinks,
-  Terms,
 } from './styles';
 
 const SideBar: React.FC = () => {
@@ -96,17 +94,13 @@ const SideBar: React.FC = () => {
       </Subscriptions>
 
       <Footer>
-        <UtilLinks>
-          <span>About</span>
-          <span> Copyright</span>
-          <span> Contact Us</span>
-        </UtilLinks>
+        <span>About </span>
+        <span> Copyright </span>
+        <span> Contact Us </span>
 
-        <Terms>
-          <span>Terms</span>
-          <span> Privacy</span>
-          <span> Policy & Safety</span>
-        </Terms>
+        <span> Terms </span>
+        <span> Privacy </span>
+        <span> Policy & Safety </span>
       </Footer>
     </Container>
   );

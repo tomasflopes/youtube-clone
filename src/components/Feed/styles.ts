@@ -16,18 +16,20 @@ export const Container = styled.div`
 export const VideoWrapper = styled.div`
   display: flex;
 
+  align-content: flex-start;
+
   flex-wrap: wrap;
 `;
 
 export const Video = styled.div`
-  flex: 1;
+  margin-bottom: 35px;
 
-  margin-bottom: 40px;
+  margin-right: 30px;
 `;
 
 export const Thumbnail = styled.div`
-  width: 320px;
-  height: 180px;
+  width: 360px;
+  height: 200px;
 
   background: var(--content);
 `;
