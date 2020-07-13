@@ -81,19 +81,31 @@ const SideBar: React.FC = () => {
           <Avatar />
           <span>kapa7</span>
         </Channel>
+        <Channel>
+          <Avatar />
+          <span>kapa7</span>
+        </Channel>
+        <Channel>
+          <Avatar />
+          <span>kapa7</span>
+        </Channel>
+        <Channel>
+          <Avatar />
+          <span>kapa7</span>
+        </Channel>
       </Subscriptions>
 
       <Footer>
         <UtilLinks>
           <span>About</span>
-          <span>Copyright</span>
-          <span>Contact Us</span>
+          <span> Copyright</span>
+          <span> Contact Us</span>
         </UtilLinks>
 
         <Terms>
           <span>Terms</span>
-          <span>Privacy</span>
-          <span>Policy & Safety</span>
+          <span> Privacy</span>
+          <span> Policy & Safety</span>
         </Terms>
       </Footer>
     </Container>

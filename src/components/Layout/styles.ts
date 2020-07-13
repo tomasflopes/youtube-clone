@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 100%;
+  background: var(--primary);
+  display: flex;
+  flex-direction: column;
+`;
+
+export const ContentWrapper = styled.div`
+  display: flex;
+  height: 100vh;
 `;
