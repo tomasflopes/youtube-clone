@@ -4,11 +4,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  margin: 50px 80px;
+  margin: 38px 82px;
 
   > h1 {
-    font-size: 22px;
-    letter-spacing: -1px;
+    font-size: 21px;
+    letter-spacing: -2px;
     margin-bottom: 15px;
   }
 `;
@@ -28,7 +28,7 @@ export const Video = styled.div`
 `;
 
 export const Thumbnail = styled.div`
-  width: 360px;
+  width: 345px;
   height: 200px;
 
   background: var(--content);
@@ -41,8 +41,8 @@ export const ChannelInfo = styled.div`
 `;
 
 export const Avatar = styled.div`
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
 
   border-radius: 50%;
   background: var(--content);
@@ -76,8 +76,8 @@ export const MoreInfo = styled.div`
 `;
 
 export const Dot = styled.div`
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
 
   border-radius: 50%;
 

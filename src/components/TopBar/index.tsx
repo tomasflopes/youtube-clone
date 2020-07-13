@@ -7,6 +7,7 @@ import {
   Logo,
   SearchWrapper,
   SearchBar,
+  SearchIconWrapper,
   SearchIcon,
   ProfileArea,
   CameraIcon,
@@ -25,7 +26,9 @@ const TopBar: React.FC = () => {
       </YouTube>
       <SearchWrapper>
         <SearchBar placeholder='Search' />
-        <SearchIcon />
+        <SearchIconWrapper>
+          <SearchIcon />
+        </SearchIconWrapper>
       </SearchWrapper>
       <ProfileArea>
         <CameraIcon />

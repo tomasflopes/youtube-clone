@@ -14,14 +14,14 @@ export const Container = styled.div`
   flex-shrink: 0;
 
   align-items: center;
-  padding: 10px 25px;
+  padding: 8px 20px;
 
   background: var(--secondary);
 `;
 
 const iconCSS = css`
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   flex-shrink: 0;
 `;
 
@@ -33,21 +33,16 @@ export const HamburgerIcon = styled(Hamburger)`
 export const YouTube = styled.div`
   display: flex;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 20px;
 
   cursor: pointer;
-
-  transition: 1000ms all ease-in-out;
-
-  &:hover {
-    > svg {
-      color: #fff;
-    }
-  }
 `;
 
 export const Logo = styled(Youtube)`
-  ${iconCSS}
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+
   color: var(--red);
 `;
 
@@ -62,8 +57,8 @@ export const SearchWrapper = styled.div`
 
 export const SearchBar = styled.input`
   border: 1px solid var(--gray);
-  width: min(600px, 80%);
-  height: 36px;
+  width: min(580px, 80%);
+  height: 32px;
   background: var(--primary);
 
   padding: 0 10px;
@@ -71,6 +66,7 @@ export const SearchBar = styled.input`
   font-size: 14px;
 
   &::placeholder {
+    font-size: 15px;
     color: #fff;
     width: 90%;
   }
@@ -94,16 +90,24 @@ export const SearchBar = styled.input`
   }
 `;
 
-export const SearchIcon = styled(Search)`
+export const SearchIconWrapper = styled.div`
   display: flex;
+
+  width: 80px;
+  height: 32px;
 
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 34px;
+  border-radius: 2px;
 
-  background: var(--secondary);
+  background: var(--third);
   color: var(--gray);
+`;
+
+export const SearchIcon = styled(Search)`
+  flex: 1;
+  width: 30px;
+  height: 24px;
 `;
 
 export const ProfileArea = styled.div`

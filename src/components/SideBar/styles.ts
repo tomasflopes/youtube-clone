@@ -18,7 +18,7 @@ export const Container = styled.div`
 
   background: var(--secondary);
 
-  width: min(25%, 280px);
+  width: 620px;
   height: 100%;
 `;
 
@@ -51,8 +51,8 @@ export const Item = styled.div`
 `;
 
 const iconCSS = css`
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
 
   color: var(--secondary);
 `;
@@ -71,7 +71,6 @@ export const SubscriptionsIcon = styled(Subscription)`
 
 export const VideoIcons = styled.div`
   display: none;
-  border-top: 0.2px solid var(--gray);
   padding-top: 20px;
 
   @media (min-width: 1024px) {
@@ -104,7 +103,7 @@ export const Subscriptions = styled.div`
 
   @media (min-width: 1024px) {
     display: block;
-    margin-top: 5px;
+    margin-top: 8px;
 
     > h1 {
       font-size: 16px;

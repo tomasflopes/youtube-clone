@@ -30,6 +30,7 @@ export default createGlobalStyle`
   :root {
     --primary: #191919;
     --secondary: #282828;
+    --third: #444;
     --red: #f00;
     --gray: rgba(40, 40, 40, .8);
     --highlighted: #2c8ed6;
